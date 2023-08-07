@@ -12,6 +12,12 @@ h1 {
     align-self: inline-flex;
 }
 
+h2 {
+  text-align: center;
+  color: #512B81;
+  font-weight: bold;
+}
+
 .pricing-container {
     display: flex;
     justify-content: center;
@@ -68,10 +74,66 @@ h1 {
     font-size: 10px;
   }
 
+  /* Sign-up page */
+
+  .grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+  }
+
+  .forms{
+    margin-bottom: 10px;
+    flex-basis: 200px;
+  }
+
+  .forms li{
+    list-style-type: none;
+  }
+
+  #plan-total{
+    grid-column-end: 2;
+  }
+
+  button{
+    border-radius: 5px;
+    border: none;
+    color:#35155D;
+    background-color: #4477CE;
+  }
+
+  button:hover {
+    background-color: rgb(81, 43, 129);
+    color:#4477CE;
+    cursor: pointer;
+  }
+
+  input, select{
+    background-color: #512B81;
+    border: none;
+    border-radius: 2.5px;
+  }
+
+  .grid div{
+    color: #4477CE;
+  }
+
+ ::placeholder, option{
+    color: #4477CE;
+  }
+
+
   @media (max-width: 1250px) {
     .pricing-container {
         flex-direction: column;
         height: 100%;
+    }
+
+    .su-container {
+      display: flex;
+      flex-flow: column nowrap;
+      height: 100%;
     }
   }
 
