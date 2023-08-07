@@ -1,0 +1,72 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #35155D
+}
+
+h1 {
+    text-align: center;
+    color: #4477CE;
+    font-size: 5rem;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+  }
+
+  .plan-pricing {
+    flex: 1;
+    max-width: 400px;
+    min-height: 400px;
+    background-color: #8CABFF;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .plan-title{
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+  .plan-price {
+    font-size: 48px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .plan-features {
+    list-style-type: none;
+  }
+
+  .plan-features li{
+    margin: 20px;
+  }
+
+  .sign-up {
+    background-color: #512B81;
+    color: #8CABFF;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    color: #8CABFF;
+    font-size: 10px;
+  }
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+  }
+
+
+
