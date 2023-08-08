@@ -101,6 +101,8 @@ h2 {
     border: none;
     color:#35155D;
     background-color: #4477CE;
+    position: relative;
+    bottom: 150px;
   }
 
   button:hover {
